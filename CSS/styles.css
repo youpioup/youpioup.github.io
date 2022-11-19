@@ -1,19 +1,70 @@
-body{
-    
+nav.menu-nav ul li.btn{
+    display: inline;
+    list-style-type: none;
 }
 
-
-h1{
-    font-size: 50px;
-    font-weight: bold;
-    margin: 50px;
+nav.menu-nav ul li.btn a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
 }
 
-p.Welcome{
-    color: black;
+nav.menu-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+header{
+    background-color: gray;
+    color: white;
+}
+
+header img{
+    border-radius: 50%;
+}
+
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content div h1, p , iframe, h2, a{
+    margin: 30px;
+}
+
+div#content div.news{
+    background-color: aquamarine;
+    vertical-align: top;
+}
+
+div#content div.rightbox{
     background-color: aquamarine;
 }
 
-a{
-    color: red;
+div#content div.annonce{
+    background-color: gray;
+    width: 95%;
+    margin: 20px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+}
+
+div#contentnews div{
+    display: inline-block;
+    margin: 30px;
+    width: 97%;
+    background-color: aquamarine;
+}
+
+div#contentnews div h1{
+    margin: 30px;
+}
+
+div#contentnews div.news div.annonce{
+    background-color: gray;
 }
