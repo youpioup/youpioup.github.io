@@ -1,0 +1,41 @@
+div#content div h1, p , iframe, h2, a{
+    margin: 30px;
+}
+
+nav.menu-nav li.btn{
+    display: inline;
+    list-style-type: none;
+}
+
+nav.menu-nav li.btn a{
+    color: white;
+    background: red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav.menu-nav li.btn:hover a{
+    color: red;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content{
+    margin: 30px;
+}
+
+div#content div.sub-content{
+    vertical-align: top;
+    margin: 20px;
+}
+
+div#content div.sub-content div.article{
+    background-color: aquamarine;
+    width: 95%;
+    margin: 20px;
+}
