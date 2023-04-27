@@ -1,23 +1,45 @@
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ---- Menu ----- */
+nav{
+    width: 100%;
+    background-color: #424858;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
+
+body nav li:hover{
+    border-top: 5px solid red;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+/* ----- Contenue ----- */
 div#content div h1, p , iframe, h2, a{
     margin: 30px;
-}
-
-nav.menu-nav li.btn{
-    display: inline;
-    list-style-type: none;
-}
-
-nav.menu-nav li.btn a{
-    color: white;
-    background: red;
-    text-decoration: none;
-    padding: 10px;
-}
-
-nav.menu-nav li.btn:hover a{
-    color: red;
-    background-color: white;
-    transition: 0.3s all;
 }
 
 div#content div{
