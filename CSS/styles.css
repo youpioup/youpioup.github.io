@@ -37,14 +37,14 @@ nav li:hover a{
     padding: 15px 30px 20px 30px;
 }
 
-/* ----- Contenue ----- */
+/* ----- Contenu ----- */
 div#content div h1, p , iframe, h2, a{
     margin: 30px;
 }
 
 div#content div{
     display: inline-block;
-    width: 48%;
+    width: 95%;
 }
 
 div#content{
